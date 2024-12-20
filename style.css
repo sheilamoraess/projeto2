@@ -1,0 +1,118 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+h1, h2 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.panel pre.prettyprint {
+    font-size: 20px;
+    text-align: left;
+    width: auto;
+    font-weight: normal;
+    margin: 10px;
+    border: none;
+}
+
+.prettyprint .linenums {
+    padding: 0;
+    list-style: none;
+}
+
+.box {
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: white;
+    border-radius: 8px;
+    color: #222;
+    font-weight: 700;
+    margin-left: 20px;
+    will-change: transform;
+}
+
+.box.active {
+    background-color: orange;
+    border: 2px solid white;
+}
+
+.description, .final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 80vh;
+}
+
+.container {
+    width: 500%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.panel {
+    font-weight: 300;
+    border: 5px solid red;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+code {
+    padding: 0.1rem;
+    background: #fff;
+    color: #222;
+    font-size: 1.5rem;
+}
+
+h1 code {
+    font-size: 1.7rem;
+}
+
+/* Menu fixo */
+.menu-fixo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.menu-fixo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-fixo li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu-fixo a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-fixo a:hover {
+    text-decoration: underline;
+}
+
+/* Ocultar o texto das boxes */
+.box-1, .box-2, .box-3 {
+    visibility: hidden;
+}
